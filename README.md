@@ -1,3 +1,33 @@
+# Billing Backend System (FacturadorARCA)
+
+This backend project was developed as a team effort for an academic assessment, simulating the ARCA web billing system through a C# console application. The system is designed with a strong focus on clean architecture and development best practices.
+
+## Main Features (CRUD Operations)
+
+* **Entity Management:** Create, Read, Update, and Delete (CRUD) operations for Clients and Invoices.
+* **Invoice Issuance:** Generation of Invoices (Types A, B, or C), validating client registration and calculating total amounts based on line items.
+* **Business Logic Validation:** Robust error handling and data validation with user-friendly confirmation and exception messages.
+
+## Technologies & Architecture
+
+* **Language:** C# / .NET
+* **ORM & Database:** Entity Framework Core (Code First with Migrations).
+* **Architecture:** Object-Oriented Programming (OOP) applying Abstraction, Encapsulation, and Separation of Concerns.
+
+## Collaborative Work
+
+Developed by a team of 3 members, utilizing version control (Git) and logical task division.
+
+## Installation & Execution
+
+1. **Clone the repository:** Copy the project to your local machine.
+2. **Open the project:** Use Visual Studio or VS Code to load the solution.
+3. **Database Setup:** Run Entity Framework migrations to generate the local database.
+4. **Run the Project:** Execute the application using the command `dotnet run`.
+
+---
+
+
 # Sistema Backend de Facturación (FacturadorARCA)
 
 Este proyecto backend fue desarrollado en equipo como parte de una evaluación académica, simulando el facturador web de ARCA mediante una aplicación de consola en C#. El sistema está diseñado con un fuerte enfoque en la arquitectura limpia y buenas prácticas de desarrollo.
